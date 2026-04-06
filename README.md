@@ -6,7 +6,7 @@ See [publication](./LoDAdaC_anonymized.pdf) for explanation of theory and archit
 ## Repository Structure
 
 ```
-LoDAdaC-release/
+LoDAdaC/
 ├── config/             # configuration scripts for model setup
 ├── DOCS/               # further documentation
 ├── models/             # model definitions
@@ -27,8 +27,8 @@ LoDAdaC-release/
 ## Quick Start
 
 ```
-git clone https://github.com/HavenCook/LoDAdaC-release.git
-cd LoDAdaC-release
+git clone https://github.com/DecentralizedMethods/LoDAdaC
+cd LoDAdaC
 ```
 
 Then follow INSTALL.md. Once that is done, modify scripts/runscript.sh to load modules and the correct environment, and scripts/experiment.py to set the input parameters.
